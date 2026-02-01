@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esty e commerece website</title>
+    <link rel="stylesheet" href="b1.css">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+        <header class="header">
+  <div class="header-left">
+    <h1 id="logo">Etsy</h1>
+  </div>
+
+  <div class="search-box">
+     <input type="text" id="searchInput" placeholder="Search for anything" size="50">
+  <button type="button" id="searchBtn">
+        🔍
+    </button>
+  </div>
+
+  <div class="header-right">
+ <a href="signup.html">Sign in</a>
+      <a href="cart.html" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i>
+  <span id="cartCount">0</span></a>
+  </div>
+  </header>
+
+  <nav class="navList">
+    <ul>
+      <li><a href="Jewleries.html">Jewleries</a></li>
+      <li><a href="Pillow.html">Pillow</a></li>
+      <li><a href="Baby.html">Baby Clothes</a></li>
+      <li><a href="Art.html">Arts</a></li>
+    </ul>
+  </nav>
+
+ <hr>
+
+ <section class="product-section">
+    <div class="product-image">
+        <img src="jewleries/neckles/neck1.webp" alt="neckles">
+    </div>
+
+ <div class="product-details">
+
+  <p class="cart-note">In 20+ carts</p>
+
+  <div class="price-row">
+    <span class="price">$968.15</span>
+    <span class="old-price">$869.33+</span>
+<!--     <span class="badge">New markdown!</span> -->
+  </div>
+
+  <p class="discount">15% off · Limited time sale</p>
+  <p class="tax">Local taxes included (where applicable)</p>
+
+  <h2 class="title">
+    14k Gold Bismarck Chain Necklace Dainty Necklace, Gold Necklace, Layering Necklace, Gift for her,
+     Diamond Pendant, CZ Necklace, Anniversary Gift
+  </h2>
+
+  <div class="rating">
+    <span class="shop">samiJewls</span>
+    <span class="stars">★★★★★</span>
+  </div>
+
+  <p class="return">✔ Returns & exchanges accepted</p>
+
+  <div class="form-group">
+    <label>Finish</label>
+    <select>
+      <option>Select an option</option>
+      <option>Gold</option>
+      <option>Silver</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>No. of Birthstones</label>
+    <select>
+      <option>Select an option</option>
+      <option>1 stone:($116.63)</option>
+      <option>2 stone:($128.99)</option>
+      <option>3 stone:($144.93)</option>
+      <option>4 stone:($156.00)</option>
+    </select>
+  </div>
+
+  <button id="addToCart">
+      Add to Cart
+    </button>
+  </section>
+
+  
+        <script src="js/search.js"></script>
+     <script src="js/cart.js"></script>
+ </body>
+ </html>

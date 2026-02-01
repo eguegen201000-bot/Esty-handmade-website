@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esty e commerece website</title>
+    <link rel="stylesheet" href="b1.css">
+     <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+        <header class="header">
+  <div class="header-left">
+    <h1 id="logo">Etsy</h1>
+  </div>
+
+  <div class="search-box">
+       <input type="text" id="searchInput" placeholder="Search for anything" size="50">
+  <button type="button" id="searchBtn">
+        🔍
+    </button>
+  </div>
+
+  <div class="header-right">
+  <a href="signup.html">Sign in</a>
+      <a href="cart.html" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i>
+  <span id="cartCount">0</span></a>
+  </div>
+  </header>
+
+  <nav class="navList">
+    <ul>
+      <li><a href="Jewleries.html">Jewleries</a></li>
+      <li><a href="Pillow.html">Pillow</a></li>
+      <li><a href="Baby.html">Baby Clothes</a></li>
+      <li><a href="Art.html">Arts</a></li>
+    </ul>
+  </nav>
+</header>
+ <hr>
+
+ <section class="product-section">
+    <div class="product-image">
+        <img src="jewleries/rings/r3.webp" alt="ring">
+    </div>
+
+ <div class="product-details">
+
+  <p class="cart-note">In demand. 13 people bought this in the last 24 hours</p>
+
+  <div class="price-row">
+    <span class="price">$29.25</span>
+    <span class="old-price">$39.00</span>
+<!--     <span class="badge">New markdown!</span> -->
+  </div>
+
+<p class="discount">25% off · Limited time sale</p> 
+  <p class="tax">Local taxes included (where applicable)</p>
+
+  <h2 class="title">
+   Chunky Statement Ring by Caitlyn Minimalist • Gold Dome Ring •
+  Minimalist Ring • A Must Have Signet Ring • Gift for Her • RR025
+  </h2>
+
+  <div class="rating">
+    <span class="shop">CaitlynMinimalist</span>
+    <span class="stars">★★★★★</span>
+  </div>
+
+  <p class="return">✔ Returns & exchanges accepted</p>
+
+  <div class="form-group">
+    <label>Finish</label>
+    <select>
+      <option>Select an option</option>
+      <option>Gold</option>
+      <option>Silver</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Ring size</label>
+    <select>
+      <option>Select an option</option>
+      <option>US 5</option>
+      <option>US 6</option>
+      <option>US 7</option>
+    </select>
+  </div>
+  <button id="addToCart">
+      Add to Cart
+    </button>
+  </section>
+
+   <script src="esty.js"></script>
+  <script src="js/search.js"></script>
+     <script src="js/cart.js"></script>
+ </body>
+ </html>

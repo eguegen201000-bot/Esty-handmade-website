@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In Form</title>
+<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="register-link">
+      <button id="registerBtn">Register</button>
+    </div>
+    <h2>Sign in</h2>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Email address" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <label>
+        <input type="checkbox" id="staySignedIn" checked>
+        Stay signed in
+        <a href="#">Forgot your password?</a>
+      </label>
+      <button type="submit">Sign in</button>
+    </form>
+
+    <div class="divider">OR</div>
+
+    <div class="social-btn google" id="googleBtn">
+      <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google">
+      Continue with Google
+    </div>
+    <div class="social-btn facebook" id="facebookBtn">
+      <img src="https://www.svgrepo.com/show/475654/facebook.svg" alt="Facebook">
+      Continue with Facebook
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
